@@ -31,10 +31,9 @@ const App = () => (
       </Layout>
       <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-            <Link to="/">
-            Crypto Store
-            </Link> <br />
-            All Rights Reserved.
+          <Link to="/">
+            Crypto Store All Rights Reserved.
+          </Link>
         </Typography.Title>
         <Space>
           <Link to="/">Home</Link>
