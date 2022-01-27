@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 
-import {  Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
+import { Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
 
 const App = () => (
@@ -31,10 +31,10 @@ const App = () => (
       </Layout>
       <div className="footer">
         <Typography.Title level={5} style={{ color: 'white', textAlign: 'center' }}>
-          <Link to="/">
-          Crypto Store
-          </Link> <br />
-          All Rights Reserved.
+            <Link to="/">
+            Crypto Store
+            </Link> <br />
+            All Rights Reserved.
         </Typography.Title>
         <Space>
           <Link to="/">Home</Link>
